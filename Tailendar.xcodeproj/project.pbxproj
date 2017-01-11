@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB8F01B1E265E9C00669E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8F01A1E265E9C00669E92 /* AppDelegate.swift */; };
+		BFB8F01D1E265E9C00669E92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8F01C1E265E9C00669E92 /* ViewController.swift */; };
+		BFB8F0201E265E9C00669E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB8F01E1E265E9C00669E92 /* Main.storyboard */; };
+		BFB8F0221E265E9C00669E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB8F0211E265E9C00669E92 /* Assets.xcassets */; };
+		BFB8F0251E265E9C00669E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB8F0231E265E9C00669E92 /* LaunchScreen.storyboard */; };
+		BFB8F0301E265E9C00669E92 /* TailendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8F02F1E265E9C00669E92 /* TailendarTests.swift */; };
+		BFB8F03B1E265E9C00669E92 /* TailendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8F03A1E265E9C00669E92 /* TailendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB8F02C1E265E9C00669E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB8F00F1E265E9C00669E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB8F0161E265E9C00669E92;
+			remoteInfo = Tailendar;
+		};
+		BFB8F0371E265E9C00669E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB8F00F1E265E9C00669E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB8F0161E265E9C00669E92;
+			remoteInfo = Tailendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFB8F0171E265E9C00669E92 /* Tailendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tailendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB8F01A1E265E9C00669E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFB8F01C1E265E9C00669E92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFB8F01F1E265E9C00669E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFB8F0211E265E9C00669E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB8F0241E265E9C00669E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB8F0261E265E9C00669E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB8F02B1E265E9C00669E92 /* TailendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TailendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB8F02F1E265E9C00669E92 /* TailendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailendarTests.swift; sourceTree = "<group>"; };
+		BFB8F0311E265E9C00669E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB8F0361E265E9C00669E92 /* TailendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TailendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB8F03A1E265E9C00669E92 /* TailendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailendarUITests.swift; sourceTree = "<group>"; };
+		BFB8F03C1E265E9C00669E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB8F0141E265E9C00669E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB8F0281E265E9C00669E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB8F0331E265E9C00669E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB8F00E1E265E9C00669E92 = {
+			isa = PBXGroup;
+			children = (
+				BFB8F0191E265E9C00669E92 /* Tailendar */,
+				BFB8F02E1E265E9C00669E92 /* TailendarTests */,
+				BFB8F0391E265E9C00669E92 /* TailendarUITests */,
+				BFB8F0181E265E9C00669E92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB8F0181E265E9C00669E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8F0171E265E9C00669E92 /* Tailendar.app */,
+				BFB8F02B1E265E9C00669E92 /* TailendarTests.xctest */,
+				BFB8F0361E265E9C00669E92 /* TailendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB8F0191E265E9C00669E92 /* Tailendar */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8F01A1E265E9C00669E92 /* AppDelegate.swift */,
+				BFB8F01C1E265E9C00669E92 /* ViewController.swift */,
+				BFB8F01E1E265E9C00669E92 /* Main.storyboard */,
+				BFB8F0211E265E9C00669E92 /* Assets.xcassets */,
+				BFB8F0231E265E9C00669E92 /* LaunchScreen.storyboard */,
+				BFB8F0261E265E9C00669E92 /* Info.plist */,
+			);
+			path = Tailendar;
+			sourceTree = "<group>";
+		};
+		BFB8F02E1E265E9C00669E92 /* TailendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8F02F1E265E9C00669E92 /* TailendarTests.swift */,
+				BFB8F0311E265E9C00669E92 /* Info.plist */,
+			);
+			path = TailendarTests;
+			sourceTree = "<group>";
+		};
+		BFB8F0391E265E9C00669E92 /* TailendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8F03A1E265E9C00669E92 /* TailendarUITests.swift */,
+				BFB8F03C1E265E9C00669E92 /* Info.plist */,
+			);
+			path = TailendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB8F0161E265E9C00669E92 /* Tailendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB8F03F1E265E9C00669E92 /* Build configuration list for PBXNativeTarget "Tailendar" */;
+			buildPhases = (
+				BFB8F0131E265E9C00669E92 /* Sources */,
+				BFB8F0141E265E9C00669E92 /* Frameworks */,
+				BFB8F0151E265E9C00669E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tailendar;
+			productName = Tailendar;
+			productReference = BFB8F0171E265E9C00669E92 /* Tailendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB8F02A1E265E9C00669E92 /* TailendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB8F0421E265E9C00669E92 /* Build configuration list for PBXNativeTarget "TailendarTests" */;
+			buildPhases = (
+				BFB8F0271E265E9C00669E92 /* Sources */,
+				BFB8F0281E265E9C00669E92 /* Frameworks */,
+				BFB8F0291E265E9C00669E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB8F02D1E265E9C00669E92 /* PBXTargetDependency */,
+			);
+			name = TailendarTests;
+			productName = TailendarTests;
+			productReference = BFB8F02B1E265E9C00669E92 /* TailendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFB8F0351E265E9C00669E92 /* TailendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB8F0451E265E9C00669E92 /* Build configuration list for PBXNativeTarget "TailendarUITests" */;
+			buildPhases = (
+				BFB8F0321E265E9C00669E92 /* Sources */,
+				BFB8F0331E265E9C00669E92 /* Frameworks */,
+				BFB8F0341E265E9C00669E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB8F0381E265E9C00669E92 /* PBXTargetDependency */,
+			);
+			name = TailendarUITests;
+			productName = TailendarUITests;
+			productReference = BFB8F0361E265E9C00669E92 /* TailendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB8F00F1E265E9C00669E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shane Qi";
+				TargetAttributes = {
+					BFB8F0161E265E9C00669E92 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L2EY42T35G;
+						ProvisioningStyle = Automatic;
+					};
+					BFB8F02A1E265E9C00669E92 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L2EY42T35G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFB8F0161E265E9C00669E92;
+					};
+					BFB8F0351E265E9C00669E92 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L2EY42T35G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFB8F0161E265E9C00669E92;
+					};
+				};
+			};
+			buildConfigurationList = BFB8F0121E265E9C00669E92 /* Build configuration list for PBXProject "Tailendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB8F00E1E265E9C00669E92;
+			productRefGroup = BFB8F0181E265E9C00669E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB8F0161E265E9C00669E92 /* Tailendar */,
+				BFB8F02A1E265E9C00669E92 /* TailendarTests */,
+				BFB8F0351E265E9C00669E92 /* TailendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB8F0151E265E9C00669E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB8F0251E265E9C00669E92 /* LaunchScreen.storyboard in Resources */,
+				BFB8F0221E265E9C00669E92 /* Assets.xcassets in Resources */,
+				BFB8F0201E265E9C00669E92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB8F0291E265E9C00669E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB8F0341E265E9C00669E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB8F0131E265E9C00669E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB8F01D1E265E9C00669E92 /* ViewController.swift in Sources */,
+				BFB8F01B1E265E9C00669E92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB8F0271E265E9C00669E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB8F0301E265E9C00669E92 /* TailendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB8F0321E265E9C00669E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB8F03B1E265E9C00669E92 /* TailendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB8F02D1E265E9C00669E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB8F0161E265E9C00669E92 /* Tailendar */;
+			targetProxy = BFB8F02C1E265E9C00669E92 /* PBXContainerItemProxy */;
+		};
+		BFB8F0381E265E9C00669E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB8F0161E265E9C00669E92 /* Tailendar */;
+			targetProxy = BFB8F0371E265E9C00669E92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFB8F01E1E265E9C00669E92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB8F01F1E265E9C00669E92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFB8F0231E265E9C00669E92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB8F0241E265E9C00669E92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB8F03D1E265E9C00669E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFB8F03E1E265E9C00669E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB8F0401E265E9C00669E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2EY42T35G;
+				INFOPLIST_FILE = Tailendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.shaneqi.Tailendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFB8F0411E265E9C00669E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2EY42T35G;
+				INFOPLIST_FILE = Tailendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.shaneqi.Tailendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BFB8F0431E265E9C00669E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L2EY42T35G;
+				INFOPLIST_FILE = TailendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.shaneqi.TailendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tailendar.app/Tailendar";
+			};
+			name = Debug;
+		};
+		BFB8F0441E265E9C00669E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L2EY42T35G;
+				INFOPLIST_FILE = TailendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.shaneqi.TailendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tailendar.app/Tailendar";
+			};
+			name = Release;
+		};
+		BFB8F0461E265E9C00669E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L2EY42T35G;
+				INFOPLIST_FILE = TailendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.shaneqi.TailendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tailendar;
+			};
+			name = Debug;
+		};
+		BFB8F0471E265E9C00669E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L2EY42T35G;
+				INFOPLIST_FILE = TailendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.shaneqi.TailendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tailendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB8F0121E265E9C00669E92 /* Build configuration list for PBXProject "Tailendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB8F03D1E265E9C00669E92 /* Debug */,
+				BFB8F03E1E265E9C00669E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB8F03F1E265E9C00669E92 /* Build configuration list for PBXNativeTarget "Tailendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB8F0401E265E9C00669E92 /* Debug */,
+				BFB8F0411E265E9C00669E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFB8F0421E265E9C00669E92 /* Build configuration list for PBXNativeTarget "TailendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB8F0431E265E9C00669E92 /* Debug */,
+				BFB8F0441E265E9C00669E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFB8F0451E265E9C00669E92 /* Build configuration list for PBXNativeTarget "TailendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB8F0461E265E9C00669E92 /* Debug */,
+				BFB8F0471E265E9C00669E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB8F00F1E265E9C00669E92 /* Project object */;
+}
